@@ -1,0 +1,14 @@
+.title_container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    right: 10%;
+    justify-content: center;
+    z-index: 1;
+    opacity: 0;
+}
+
+.title{
+    color: white;
+}

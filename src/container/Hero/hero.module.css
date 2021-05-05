@@ -1,0 +1,8 @@
+.videoContainer{
+    display: flex;
+    height: 100vh;
+    object-fit: contain;
+    overflow: hidden;
+    background-color: black;
+}
+
