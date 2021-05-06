@@ -8,21 +8,25 @@
     z-index: 1;
     opacity: 0;
     width: 25%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 100px 30px black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .title{
     text-align: center;
-    color: white;
+    color: #8FDBEC;
 }
 
 hr{
-    border-color: aqua;
+    border-color: #BDEAF4;
     margin: 0;
 }
 
 .quote{
     text-align: center;
     padding-top: 2rem;
-    color: rgba(213, 247, 239, 0.452);
-    font-size: 1.2rem
+    color: #8FDBEC;
+    font-size: 1.2rem;
+    scale: 1;
 }

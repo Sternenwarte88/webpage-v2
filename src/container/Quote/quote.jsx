@@ -1,6 +1,7 @@
 
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 
 export default function Quote () {
   const [quote, setQuote] = useState('');
@@ -13,7 +14,7 @@ export default function Quote () {
 
   return (
     <>
-    <p>{quote.quote} <br/> <br/>
+    <p><ImQuotesLeft/>{quote.quote}<ImQuotesRight/> <br/> <br/>
    {quote.author}</p>
     </>
   );
