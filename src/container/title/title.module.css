@@ -7,8 +7,22 @@
     justify-content: center;
     z-index: 1;
     opacity: 0;
+    width: 25%;
 }
 
 .title{
+    text-align: center;
     color: white;
+}
+
+hr{
+    border-color: aqua;
+    margin: 0;
+}
+
+.quote{
+    text-align: center;
+    padding-top: 2rem;
+    color: rgba(213, 247, 239, 0.452);
+    font-size: 1.2rem
 }

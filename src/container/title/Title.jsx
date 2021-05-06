@@ -23,9 +23,12 @@ export default function Title () {
 
   return (
     <motion.div animate="visible" initial="hidden" variants={opacityAnimation} className={classes.title_container}>
+
         <motion.h1 opacityAnimation={opacityAnimation} variants={opacityAnimation} className={classes.title}>The world is changing,</motion.h1>
         <motion.h2 opacityAnimation={opacityAnimation} variants={opacityAnimation} className={classes.title}>and we can influence it!</motion.h2>
-        <Quote/>
+        <motion.hr opacityAnimation={opacityAnimation} variants={opacityAnimation}/>
+        <motion.div opacityAnimation={opacityAnimation} variants={opacityAnimation} className={classes.quote} ><Quote/> </motion.div>
+
     </motion.div>
   );
 }
