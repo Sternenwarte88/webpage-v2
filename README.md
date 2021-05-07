@@ -19,14 +19,18 @@ This is a complete remake of my website. The old in plain HTML, less Javascript 
 
 * Figma
 * VsCode
+* Chrome
+* Firefox Developer Edition
 
 ### Language:
 
-* Typescript
-* SCSS
+* Javascript ES6
+* CSS
 
 ### Frameworks:
 
 * React
+* React-Icons
+* Figma Motion
 
 
