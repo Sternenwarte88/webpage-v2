@@ -14,8 +14,8 @@ export default function Quote () {
 
   return (
     <>
-    <p><ImQuotesLeft/>{quote.quote}<ImQuotesRight/> <br/> <br/>
-   {quote.author}</p>
+      <p><ImQuotesLeft/>{quote.quote}<ImQuotesRight/> <br/> <br/>
+        {quote.author}</p>
     </>
   );
 }

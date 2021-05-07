@@ -4,7 +4,7 @@ import Hero from '../Hero/hero';
 export default function Layout () {
   return (
     <>
-    <Hero/>
+      <Hero/>
     </>
   );
 }

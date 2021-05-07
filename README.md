@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/Wusabinga/my-new-webpage?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/Wusabinga/webpage-v2?style=plastic)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
 =======
 # Webpage V2
