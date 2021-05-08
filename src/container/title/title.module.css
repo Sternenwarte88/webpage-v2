@@ -2,20 +2,20 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    right: 10%;
     justify-content: center;
     z-index: 1;
-    opacity: 0;
-    width: 25%;
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 0 0 100px 30px black;
     font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    opacity: 0;
+
 }
 
 .title{
     text-align: center;
     color: #8FDBEC;
+    padding: 0 1rem;
 }
 
 hr{
@@ -25,8 +25,17 @@ hr{
 
 .quote{
     text-align: center;
-    padding-top: 2rem;
+    padding: 2rem 1.5rem 0;
     color: #8FDBEC;
     font-size: 1.2rem;
-    scale: 1;
+
+}
+
+@media (min-width: 1044px){
+
+    .title_container{
+    right: 10%;
+    width: 25%;
+    }
+
 }

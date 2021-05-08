@@ -1,6 +1,5 @@
-.quoteContainer{
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    color: white;
+@media (min-width: 1044px){
+    .quoteContainer{
+        width: 25%;    
+    }
 }
