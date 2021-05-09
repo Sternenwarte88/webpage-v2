@@ -1,0 +1,9 @@
+.testobject{
+    background: linear-gradient(0deg, #BDEAF4 47.37%, #DCE9FA 62.93%);
+border-radius: 0px 0px 8px 8px;
+}
+
+.testschrift{
+    margin: 0;
+    z-index: 2;
+}
