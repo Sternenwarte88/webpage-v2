@@ -1,0 +1,64 @@
+.skillContainer {
+  padding: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  justify-content: space-evenly;
+}
+
+.skillHead {
+  display: block;
+  font-family: Bellota;
+  color: #08272e;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 45px;
+  letter-spacing: 0.195em;
+  margin: 0 0 0 3rem;
+}
+
+.skillCircle {
+  display: inline;
+  width: 30%;
+}
+
+span {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 144%;
+  letter-spacing: 0.1rem;
+  color: #0f4f5d;
+}
+.skillTitle {
+  display: flex;
+  width: 100%;
+  font-family: Bellota;
+  color: #08272e;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 45px;
+  letter-spacing: 0.195em;
+  justify-content: center;
+}
+
+.legendList {
+  list-style: none;
+  text-align: left;
+}
+
+.legend {
+  display: inline-block;
+  font-family: Bellota;
+  color: rgba(0, 25, 50, 0.5);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 45px;
+  letter-spacing: 0.195em;
+  margin: 1rem 0 0 3rem;
+  border: 1px dashed rgba(0, 25, 50, 0.25);
+  border-radius: 25%;
+}

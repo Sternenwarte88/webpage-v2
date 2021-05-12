@@ -6,15 +6,19 @@ export default function Title () {
   const opacityAnimation = {
     visible: {
       opacity: 1,
+      scale: 1,
       transition: {
-        ease: 'easeInOut',
-        duration: 2,
+        ease: 'backInOut',
+        type: 'spring',
+        bounce: 0.4,
+        duration: 3,
         when: 'beforeChildren',
         staggerChildren: 3
       }
     },
     hidden: {
       opacity: 0,
+      scale: 0,
       transition: {
         when: 'afterChildren'
       }
@@ -22,8 +26,9 @@ export default function Title () {
   };
 
   const scale = {
-    scale: 1.5,
-    transition: { duration: 2 }
+    scale: [1, 1.5, 1.5, 1, 1],
+    rotate: [0, 360, 360, 0, 0],
+    transition: { duration: 5 }
   };
 
   return (

@@ -1,18 +1,21 @@
 import classes from './navigation.module.css';
 import { motion } from 'framer-motion';
 import React from 'react';
-import { ImGithub, ImLinkedin, ImXing2 } from 'react-icons/im';
+import { Icon, IconButton } from 'rsuite';
 import logo from '../../media/svg/default 1.svg';
 
 export default function Navigation () {
   return (
     <>
-        <motion.div className={classes.navBar}>
+      <motion.div className={classes.navBar}>
         <img className={classes.logo} src={logo} />
-        <ImLinkedin className={classes.icon}/>
-        <ImXing2 className={classes.icon}/>
-        <ImGithub className={classes.icon}/>
-        </motion.div>
+        <IconButton
+          icon={<Icon icon="github-alt" />}
+          className={classes.icon}
+        />
+        <IconButton icon={<Icon icon="linkedin" />} className={classes.icon} />
+        <IconButton icon={<Icon icon="xing" />} className={classes.icon} />
+      </motion.div>
     </>
   );
 }
