@@ -1,8 +1,7 @@
 import React from 'react';
-import './App.css';
 import Layout from './container/Layout/layout';
-
 import 'rsuite/dist/styles/rsuite-default.css';
+import './App.css';
 
 function App () {
   return (

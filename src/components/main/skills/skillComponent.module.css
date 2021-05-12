@@ -2,7 +2,8 @@
   padding: 4rem 0;
   display: grid;
   grid-template-columns: repeat(5, 20%);
-  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
 }
 
 .skillHead {
@@ -18,8 +19,8 @@
 }
 
 .skillCircle {
-  display: inline;
-  width: 30%;
+  width: 50%;
+  margin: 0 2rem;
 }
 
 span {
@@ -42,6 +43,7 @@ span {
   line-height: 45px;
   letter-spacing: 0.195em;
   justify-content: center;
+  text-align: center;
 }
 
 .legendList {

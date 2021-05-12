@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.1.8",
     "axios": "^0.21.1",
     "customize-cra": "^1.0.0",
-    "framer-motion": "4.1.15",
+    "framer-motion": "4.1.16",
     "less": "^4.1.1",
     "less-loader": "^8.1.1",
     "react": "^17.0.2",

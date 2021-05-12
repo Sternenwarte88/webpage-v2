@@ -49,6 +49,36 @@ export const skills = [
     title: 'Kubernetes',
     percent: 2,
     description: 'second text'
+  },
+  {
+    title: 'Clean Code',
+    percent: 2,
+    description: ' '
+  },
+  {
+    title: 'UX & Webdesign',
+    percent: 3,
+    description: ''
+  },
+  {
+    title: 'Unit Testing',
+    percent: 2,
+    description: ''
+  },
+  {
+    title: 'Nest.JS',
+    percent: 3,
+    description: ''
+  },
+  {
+    title: 'Progressive Web Apps',
+    percent: 3,
+    description: ''
+  },
+  {
+    title: 'Rest-API',
+    percent: 3,
+    description: ''
   }
 
 ];

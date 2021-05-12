@@ -24,6 +24,7 @@
 
 .profilePicture {
   width: 25%;
+  height: fit-content;
   border-radius: 50%;
   padding-left: 14px;
 }

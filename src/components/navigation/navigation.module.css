@@ -23,5 +23,7 @@
 .icon {
   font-size: 2rem;
   padding: 1.5rem 1rem;
+  background-color: #97bcf0;
   color: rgba(0, 25, 50, 0.75);
+  transition: color 0.2s linear, #97bcf0 0.3s;
 }
