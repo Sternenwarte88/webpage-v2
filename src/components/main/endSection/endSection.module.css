@@ -1,0 +1,51 @@
+.endSectionTitle {
+  text-align: center;
+  font-family: Bellota;
+  color: #08272e;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 45px;
+  letter-spacing: 0.195em;
+  margin: 0 0 3rem;
+}
+
+.contactButton {
+  width: 100%;
+  background: linear-gradient(180deg, #bdeaf4 0%, #97bcf0 100%);
+  box-shadow: 0px 15px 25px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 1rem 4rem;
+  font-family: Bellota;
+  color: rgba(0, 25, 50, 0.5);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 45px;
+  letter-spacing: 0.195em;
+}
+
+.icon {
+  width: fit-content;
+}
+
+.iconContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.overall {
+  padding: 5rem 0;
+}
+
+.socialButton {
+  background: linear-gradient(180deg, #bdeaf4 0%, #97bcf0 100%);
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 1rem 3rem;
+}
+
+.link {
+  overflow: hidden;
+}

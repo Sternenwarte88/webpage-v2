@@ -14,6 +14,8 @@ export default function Navigation () {
           circle
           icon={<Icon icon="github-alt" size="5x" />}
           className={classes.icon}
+          href="https://github.com/Wusabinga"
+          target="_blank"
         />
         <IconButton
           size="lg"
@@ -21,14 +23,16 @@ export default function Navigation () {
           color="#001932"
           icon={<Icon icon="linkedin" size="5x" />}
           className={classes.icon}
+          href="https://www.linkedin.com/in/stephan-l%C3%B6cher-2ab7871b2/"
+          target="_blank"
         />
-        <IconButton
+        {/* <IconButton
           size="lg"
           circle
           color="#001932"
           icon={<Icon icon="xing" />}
           className={classes.icon}
-        />
+        /> */}
       </motion.div>
     </>
   );
