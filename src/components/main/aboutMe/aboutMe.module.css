@@ -7,11 +7,11 @@
   font-size: 2.25rem;
   line-height: 45px;
   letter-spacing: 0.195em;
-  margin: 0 0 0 3rem;
+  margin: 0 3rem;
 }
 
 .aboutMe {
-  display: flex;
+  display: inline-block;
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
@@ -19,12 +19,12 @@
   line-height: 144%;
   letter-spacing: 0.1rem;
   color: #0f4f5d;
-  margin: 7px 0 0 3rem;
+  margin: 7px 3rem;
 }
 
 .profilePicture {
   width: 25%;
-  height: fit-content;
   border-radius: 50%;
-  padding-left: 14px;
+  float: right;
 }
+

@@ -11,8 +11,8 @@ export default function Hero () {
   return (
     <>
       <div className={classes.videoContainer}>
-        <Title/>
-        <video className={classes.video} ref={video} autoPlay loop muted >
+        <Title />
+        <video className={classes.video} ref={video} autoPlay loop muted>
           <source src={hero} type="video/webm" />
         </video>
       </div>

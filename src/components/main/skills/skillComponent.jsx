@@ -46,10 +46,11 @@ export default function SkillComponent (props) {
                 key={uuid()}
                 componentClass={Col}
                 colspan={24}
-                xs={12}
+                xs={6}
                 sm={8}
                 md={6}
                 lg={4}
+                className={classes.gridItem}
               >
                 <Whisper
                   placement="auto"
@@ -64,7 +65,7 @@ export default function SkillComponent (props) {
                       trailWidth={1}
                       trailColor={'rgba(0, 25, 50, 0.25)'}
                     >
-                      <h2>{element.title}</h2>
+                      <h2 className={classes.skillTitle}>{element.title}</h2>
                     </ProgressCircle>{' '}
                   </div>
                 </Whisper>

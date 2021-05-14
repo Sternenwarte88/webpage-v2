@@ -1,0 +1,25 @@
+.socialButton {
+  background: linear-gradient(180deg, #bdeaf4 0%, #97bcf0 100%);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.link {
+  overflow: hidden;
+}
+.icon {
+  width: fit-content;
+}
+
+@media (min-width: 1440px) {
+  .socialButton {
+    padding: 1rem 3rem;
+  }
+
+  .link {
+    overflow: hidden;
+  }
+  .icon {
+    width: fit-content;
+  }
+}

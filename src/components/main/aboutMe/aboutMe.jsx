@@ -5,9 +5,14 @@ import profilePicture from '../../../media/webp/profile.webp';
 export default function AboutMe () {
   return (
     <>
-      <div>
+      <div className={classes.main}>
         <h1 className={classes.title}>About Me</h1>
         <p className={classes.aboutMe}>
+          <img
+            className={classes.profilePicture}
+            src={profilePicture}
+            alt="profilePicture"
+          />
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra cras
           vehicula faucibus egestas sagittis, ut proin purus. Mattis congue
           semper nisl id ipsum dictum. Posuere luctus suspendisse non enim donec
@@ -24,11 +29,6 @@ export default function AboutMe () {
           pellentesque scelerisque erat. Hendrerit bibendum convallis facilisis
           magna amet, elit mi at. Nulla ac orci sit ac nisi. Sed quisque
           faucibus vel fringilla pretium, aliquam est non.
-          <img
-            className={classes.profilePicture}
-            src={profilePicture}
-            alt="profilePicture"
-          />
         </p>
       </div>
     </>
