@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import { Col, FlexboxGrid } from 'rsuite';
 import FlexboxGridItem from 'rsuite/lib/FlexboxGrid/FlexboxGridItem';
-import SelfMadeButton from '../../UI/Button/selfMadeButton';
+import SelfMadeButton from '../UI/Button/selfMadeButton';
 
 export default function EndSection () {
   return (
@@ -13,7 +13,7 @@ export default function EndSection () {
       align="middle"
     >
       <FlexboxGrid justify="space-around">
-        <FlexboxGridItem componentClass={Col} xs={24} sm={24} md={12} lg={12}>
+        <FlexboxGridItem componentClass={Col} xs={24} sm={24} md={12} lg={24}>
           <h1 className={classes.endSectionTitle}>Get in touch with me</h1>
         </FlexboxGridItem>
         <FlexboxGridItem componentClass={Col}>
@@ -27,25 +27,23 @@ export default function EndSection () {
           </motion.button>{' '}
         </FlexboxGridItem>
       </FlexboxGrid>
-      <FlexboxGrid justify="space-between">
-        <FlexboxGridItem componentClass={Col} xs={24} sm={24} md={12} lg={12}>
+      <FlexboxGrid justify="space-around">
+        <FlexboxGridItem componentClass={Col} xs={24} sm={24} md={12} lg={24}>
           <h1 className={classes.endSectionTitle}>or share me</h1>
         </FlexboxGridItem>
         <div className={classes.iconContainer}>
-          <div className={classes.icon}>
+          {/* <div className={classes.icon}> */}
             <SelfMadeButton
               socialLink="https://github.com/Wusabinga"
               icon="github-alt"
               size="5x"
             />
-          </div>
-          <div className={classes.icon}>
             <SelfMadeButton
               socialLink="https://www.linkedin.com/in/stephan-l%C3%B6cher-2ab7871b2/"
               icon="linkedin"
               size="5x"
             />
-          </div>
+          {/* </div> */}
         </div>
       </FlexboxGrid>
     </FlexboxGrid>

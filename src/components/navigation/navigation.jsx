@@ -19,14 +19,6 @@ export default function Navigation () {
           size="5x"
           socialLink="https://www.linkedin.com/in/stephan-l%C3%B6cher-2ab7871b2/"
         />
-
-        {/* <IconButton
-          size="lg"
-          circle
-          color="#001932"
-          icon={<Icon icon="xing" />}
-          className={classes.icon}
-        /> */}
       </motion.div>
     </>
   );

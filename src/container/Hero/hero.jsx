@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import hero from '../../media/video/FHD_Techno_connect.webm';
 import classes from './hero.module.css';
-import Title from '../title/Title';
+import Title from '../../components/title/Title';
 
 export default function Hero () {
   const video = useRef();

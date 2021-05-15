@@ -8,18 +8,12 @@
   line-height: 45px;
   letter-spacing: 0.195em;
   margin: 3rem 0 0 3rem;
+  text-align: center;
 }
 
 .skillCircle {
-  /* width: 30%; */
-  /* margin: 0 2rem; */
-
-  height: 150px;
+  height: max-content;
   justify-items: flex-end;
-}
-
-.skillTitle {
-  line-height: normal;
 }
 
 span {
@@ -41,6 +35,9 @@ span {
   font-size: 1rem;
   justify-content: center;
   text-align: center;
+  margin-top: 2rem;
+
+  line-height: normal;
 }
 
 .legendList {
@@ -65,4 +62,35 @@ span {
 .gridItem {
   padding: auto 0;
   justify-items: flex-end;
+}
+
+@media (min-width: 480px) {
+  .skillCircle {
+    height: max-content;
+    width: 75%;
+    margin: 0 2rem;
+  }
+}
+
+@media (min-width: 720px) {
+  .skillTitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .skillTitle {
+    font-size: 1.5rem;
+  }
+  .skillCircle {
+    height: max-content;
+    width: 50%;
+    margin: 0 2rem;
+  }
+}
+@media (min-width: 1440px) {
+  .skillCircle {
+    width: 50%;
+    margin: 2rem;
+  }
 }

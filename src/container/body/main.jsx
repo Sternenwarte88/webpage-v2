@@ -1,8 +1,8 @@
 import classes from './main.module.css';
 import React from 'react';
-import AboutMe from './aboutMe/aboutMe';
-import EndSection from './endSection/endsection';
-import Skills from './skills/skills';
+import AboutMe from '../../components/main/aboutMe/aboutMe';
+import EndSection from '../../components/endSection/endsection';
+import Skills from '../../components/main/skills/skillComponent';
 export default function MainSection () {
   return (
     <>

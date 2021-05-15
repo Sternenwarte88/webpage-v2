@@ -46,7 +46,7 @@ export default function SkillComponent (props) {
                 key={uuid()}
                 componentClass={Col}
                 colspan={24}
-                xs={6}
+                xs={8}
                 sm={8}
                 md={6}
                 lg={4}
