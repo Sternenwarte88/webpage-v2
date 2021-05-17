@@ -4,13 +4,10 @@ name: webpage
 
 steps:
   - name: build
-    when:
-      branch:
-        - publish
     image: node
-  volumes:
-    - name: cache
-    path: /tmp/cache
+    volumes:
+      - name: cache
+        path: /tmp/cache
     commands:
       - npm install
       - npm run build
