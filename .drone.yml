@@ -9,6 +9,7 @@ steps:
       - npm install
       - npm run build
       - copy ./build ./webpage
+      
   trigger:
     branch:
       - publish
