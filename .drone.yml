@@ -4,14 +4,19 @@ name: webpage
 
 steps:
   - name: build
-    image: node
     volumes:
       - name: webpage
         path: /webpage
+    image: node
     commands:
       - npm install
       - npm run build
       - copy ./build ./webpage
-    trigger:
+    when:
       branch:
         - publish
+
+volumes:
+  - name: webpage
+    host:
+      path: /webpage
