@@ -8,14 +8,15 @@ steps:
       branch:
         - publish
     image: node
-    volumes:
-      - name: webpage
-        path: /tmp/cache
+  volumes:
+  - name: cache
+    path: /tmp/cache
     commands:
       - npm install
       - npm run build
       - cp ./build /runner/webpage
+
 volumes:
-  - name: webpage
-    host:
-      path: home/drone/data/webpage
+- name: cache
+  host:
+    path: /var/lib/cache
