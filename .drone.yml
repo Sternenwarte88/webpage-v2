@@ -14,8 +14,7 @@ steps:
     commands:
       - npm install
       - npm run build
-      - copy ./build ./webpage
-
+      - cp ./build ./webpage
 # volumes:
 #   - name: webpage
 #     host:
