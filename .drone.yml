@@ -7,10 +7,10 @@ steps:
     when:
       branch:
         - publish
-    # volumes:
-    #   - name: webpage
-    #     path: /webpage
     image: node
+    volumes:
+      - name: webpage
+        path: /webpage
     commands:
       - npm install
       - npm run build
