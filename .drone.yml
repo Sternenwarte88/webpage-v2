@@ -16,7 +16,7 @@ steps:
       - npm run build
       - copy ./build ./webpage
 
-volumes:
-  - name: webpage
-    host:
-      path: data
+# volumes:
+#   - name: webpage
+#     host:
+#       path: data
