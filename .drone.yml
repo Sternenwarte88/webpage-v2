@@ -2,9 +2,6 @@ kind: pipeline
 type: docker
 name: webpage
 
-workspace:
-  path: /runner
-
 steps:
   - name: build
     when:
@@ -13,7 +10,7 @@ steps:
     image: node
     volumes:
       - name: webpage
-        path: /runner
+        path: /tmp/cache
     commands:
       - npm install
       - npm run build
