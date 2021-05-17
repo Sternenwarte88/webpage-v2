@@ -10,7 +10,7 @@ steps:
     image: node
     volumes:
       - name: webpage
-        path: /webpage
+        path: /data
     commands:
       - npm install
       - npm run build
