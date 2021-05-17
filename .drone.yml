@@ -17,7 +17,7 @@ steps:
     commands:
       - npm install
       - npm run build
-      - cp ./runner/build ./runner/webpage
+      - cp ./build ./runner/webpage
 volumes:
   - name: webpage
     host:
