@@ -10,9 +10,9 @@ volumes:
 steps:
   - name: build
     image: node
-    volumes:
-      - name: webpage
-        path: /webpage
+    # volumes:
+    #   - name: webpage
+    #     path: /webpage
     commands:
       - npm install
       - npm run build
