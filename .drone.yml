@@ -19,4 +19,4 @@ steps:
 volumes:
   - name: webpage
     host:
-      path: /webpage
+      path: /data
