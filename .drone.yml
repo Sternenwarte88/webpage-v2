@@ -11,9 +11,9 @@ steps:
     commands:
       - npm install
       - npm run build
-      - cp ./build -R /tmp/cache
+      - cp ./build -R cache
 
 volumes:
 - name: cache
   host:
-    path: /data
+    path: /home/drone/data/webpage
