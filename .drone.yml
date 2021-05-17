@@ -8,7 +8,7 @@ steps:
       branch:
         - publish
     image: node
-  volumes:
+volumes:
   - name: cache
     path: /tmp/cache
     commands:
