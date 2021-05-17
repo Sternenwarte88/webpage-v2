@@ -3,6 +3,7 @@ type: docker
 name: webpage
 
 workspace:
+  path: /runner
 
 steps:
   - name: build
@@ -12,12 +13,12 @@ steps:
     image: node
     volumes:
       - name: webpage
-        path: /data/webpage
+        path: /runner
     commands:
       - npm install
       - npm run build
-      - cp /build /webpage
+      - cp ./runner/build ./runner/webpage
 volumes:
   - name: webpage
     host:
-      path: /data
+      path: /data/webpage
