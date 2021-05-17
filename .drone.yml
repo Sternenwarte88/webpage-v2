@@ -2,11 +2,6 @@ kind: pipeline
 type: docker
 name: webpage
 
-volumes:
-  - name: webpage
-    host:
-      path: /webpage
-
 steps:
   - name: build
     image: node
