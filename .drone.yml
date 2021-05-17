@@ -19,4 +19,4 @@ volumes:
 volumes:
 - name: cache
   host:
-    path: /var/lib/cache
+    path: /data
