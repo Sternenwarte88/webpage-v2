@@ -17,8 +17,8 @@ steps:
     commands:
       - npm install
       - npm run build
-      - cp ./build ./runner/webpage
+      - cp ./build /runner/webpage
 volumes:
   - name: webpage
     host:
-      path: /data/webpage
+      path: home/drone/data/webpage
