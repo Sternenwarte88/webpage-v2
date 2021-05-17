@@ -11,7 +11,7 @@ steps:
     commands:
       - npm install
       - npm run build
-      - cp ./build -R /runner/webpage
+      - cp ./build -R /tmp/cache
 
 volumes:
 - name: cache
