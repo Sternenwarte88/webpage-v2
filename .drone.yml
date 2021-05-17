@@ -8,8 +8,8 @@ steps:
       branch:
         - publish
     image: node
-volumes:
-  - name: cache
+  volumes:
+    - name: cache
     path: /tmp/cache
     commands:
       - npm install
