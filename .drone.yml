@@ -5,15 +5,7 @@ name: webpage
 steps:
   - name: build
     image: node
-    volumes:
-      - name: cache
-        path: /build2
     commands:
       - npm install
       - npm run build
-      - cp ./build -R /build2
-
-volumes:
-- name: cache
-  host:
-    path: /home/drone/data/webpage
+      - cp ./build -R /webpage
