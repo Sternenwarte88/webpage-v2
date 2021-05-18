@@ -5,7 +5,15 @@ name: webpage
 steps:
   - name: build
     image: node
+    volumes:
+      - name: webpage
+        path: /webpage
     commands:
       - npm install
       - npm run build
-      - cp ./build/* -R /webpage/
+      - cp ./build -R /webpage
+
+volumes:
+  - name: webpage
+    host:
+      path: /www/wwwroot/main
