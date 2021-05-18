@@ -8,4 +8,4 @@ steps:
     commands:
       - npm install
       - npm run build
-      - \ cp ./build -R /webpage
+      - cp ./build -R /webpage
