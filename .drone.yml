@@ -7,11 +7,11 @@ steps:
     image: node
     volumes:
       - name: cache
-        path: /tmp/cache
+        path: /build2
     commands:
       - npm install
       - npm run build
-      - cp ./build -R /runner
+      - cp ./build -R /build2
 
 volumes:
 - name: cache
