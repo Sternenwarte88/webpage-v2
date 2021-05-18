@@ -17,14 +17,20 @@ export default function EndSection () {
           <h1 className={classes.endSectionTitle}>Get in touch with me</h1>
         </FlexboxGridItem>
         <FlexboxGridItem componentClass={Col}>
-          <motion.button
-            className={classes.contactButton}
-            initial={{ scale: 1 }}
-            whileHover={{ scale: 1.2, transition: { duration: 1 } }}
-            whileTap={{ scale: 0.8, rotate: 360, transition: { duration: 1 } }}
-          >
-            Contact Me
-          </motion.button>{' '}
+          <a href="mailto:s.loecher.slc@gmail.com">
+            <motion.button
+              className={classes.contactButton}
+              initial={{ scale: 1 }}
+              whileHover={{ scale: 1.2, transition: { duration: 1 } }}
+              whileTap={{
+                scale: 0.8,
+                rotate: 360,
+                transition: { duration: 1 }
+              }}
+            >
+              Contact Me
+            </motion.button>{' '}
+          </a>
         </FlexboxGridItem>
       </FlexboxGrid>
       <FlexboxGrid justify="space-around">
@@ -32,18 +38,16 @@ export default function EndSection () {
           <h1 className={classes.endSectionTitle}>or share me</h1>
         </FlexboxGridItem>
         <div className={classes.iconContainer}>
-          {/* <div className={classes.icon}> */}
-            <SelfMadeButton
-              socialLink="https://github.com/Wusabinga"
-              icon="github-alt"
-              size="5x"
-            />
-            <SelfMadeButton
-              socialLink="https://www.linkedin.com/in/stephan-l%C3%B6cher-2ab7871b2/"
-              icon="linkedin"
-              size="5x"
-            />
-          {/* </div> */}
+          <SelfMadeButton
+            socialLink="https://github.com/Wusabinga"
+            icon="github-alt"
+            size="5x"
+          />
+          <SelfMadeButton
+            socialLink="https://www.linkedin.com/in/stephan-l%C3%B6cher-2ab7871b2/"
+            icon="linkedin"
+            size="5x"
+          />
         </div>
       </FlexboxGrid>
     </FlexboxGrid>

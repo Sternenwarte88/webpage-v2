@@ -53,6 +53,7 @@ export default function SkillComponent (props) {
                 className={classes.gridItem}
               >
                 <Whisper
+                  className={classes.whisper}
                   placement="auto"
                   trigger="hover"
                   speaker={<Tooltip>{element.description}</Tooltip>}

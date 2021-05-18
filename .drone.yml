@@ -3,7 +3,11 @@ type: docker
 name: webpage
 
 steps:
+
   - name: build
+    when:
+      branch:
+        - publish
     image: node
     volumes:
       - name: webpage
