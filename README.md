@@ -1,5 +1,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Wusabinga/webpage-v2?style=plastic)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
+![Build Status](http://coding-experience.de:8111/api/badges/Wusabinga/webpage-v2/status.svg?ref=refs/heads/publish)
 =======
 # Webpage V2
 
