@@ -63,17 +63,17 @@ export const skills = [
   {
     title: 'Nest.JS',
     percent: 2,
-    description: ''
+    description: 'At Nest.js, I have only limited experience because, despite the passion, I lack the experience and the use cases. The basics and the understanding are clear to me.'
   },
   {
     title: 'Progressive Web Apps',
     percent: 2,
-    description: ''
+    description: 'I have little experience with progressive web apps, but I believe it will be the future. Written once, used everywhere and with the advantages of both worlds. Worlds of a native app and a modern, always up-to-date web app. I am familiar with writing manifestos and I write service workers with workbox'
   },
   {
     title: 'Rest-API',
     percent: 3,
-    description: ''
+    description: 'REST API, bereitstellung und CRUD operations sind bekannt und beherrsche diese auch.'
   }
 
 ];
