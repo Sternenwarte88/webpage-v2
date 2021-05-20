@@ -23,42 +23,42 @@ export const skills = [
   {
     title: 'React',
     percent: 3,
-    description: 'React is a really good framework, but so gigantic that somehow you can´t know everything. Single page application or do you prefer multipage? Not an issue with react. What you need is installed, what you don´t need is simply left out. Unfortunately, since React is so gigantic, I can´t do everything. What I can do ranges from components, whether functional or class-based, to higher order components, hooks or the classic life cycle implementations. Since JSX is a mixture of HTML and Javascript, its use is also not a problem.'
+    description: 'React is a really good framework, but so gigantic that somehow you can´t know everything. Single page application or do you prefer multipage? Not an issue with react. What you need is installed, what you don´t need is simply left out. Unfortunately, since React is so gigantic, I can´t do everything. What I can do ranges from components, whether functional or class-based, to higher order components, hooks or the classic life cycle implementations. Since JSX is a mixture of HTML and Javascript, its use is also not a problem.Mobile first is not an issue.'
   },
   {
     title: 'Node',
     percent: 3,
-    description: 'second text'
+    description: 'I get along very well with Node.js due to the Javascript basis. I especially enjoy the logics, starting with the rest of the API interfaces to complete backend applications. MVC system is also known.'
   },
   {
     title: 'MongoDB',
     percent: 2,
-    description: 'second text'
+    description: 'In my opinion, MongoDB is the perfect database for Javascript. Not only is it scalable, so is the use of the database. Writing queries with Javascript, receiving and using data is super easy. Especially in connection with the JSON format. The basics are known, but more complex applications such as the Aggregation Pipeline would have to be practiced again because I am missing specific use cases.'
   },
   {
     title: 'Docker',
-    percent: 2,
-    description: 'second text'
+    percent: 1,
+    description: 'For Docker and Kubernetes, I heard about it and also worked with it at short notice. But we cannot speak of experience at the moment, so that the use cases are missing. But with a little documentation and patience, I´ll be able to master that.'
   },
   {
     title: 'Kubernetes',
-    percent: 2,
-    description: 'second text'
+    percent: 1,
+    description: 'For Docker and Kubernetes, I heard about it and also worked with it at short notice. But we cannot speak of experience at the moment, so that the use cases are missing. But with a little documentation and patience, I´ll be able to master that.'
   },
   {
     title: 'Clean Code',
     percent: 2,
-    description: ' '
+    description: 'Clean code is important and I try to adhere to it every time, even if it doesn´t always work right away. DRY is my most important principle. I think that alone is more than half the win. Function calls in a function are okay, written functions in a function are swapped out and then called accordingly. I could write so much about clean code myself, but everyone has a different opinion. So I always keep in mind that if a beginner gets it, it´s good.'
   },
   {
     title: 'UX & Webdesign',
     percent: 3,
-    description: ''
+    description: 'UI/UX beherrsche ich angefangen bei den Grundprinzipien, wie etwas aufgebaut sein sollte, Microinteraktionen und user freundliches Design, bis Nutzun von Componenten und Designsystemen in Figma. Ebenfalls ist mir das Skizzieren, Wireframing bis hin zum Prototyp alles geläufig.'
   },
   {
     title: 'Unit Testing',
     percent: 1,
-    description: ''
+    description: 'I know the basic principles of unit testing, but I have hardly any experience. I´ve worked with Jest, I´ve seen Mocha, Chai and Sinon.js. I am also aware of the coverage with Istanbul.'
   },
   {
     title: 'Nest.JS',
