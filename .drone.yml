@@ -8,6 +8,8 @@ steps:
     when:
       branch:
         - publish
+      event:
+        - pull_request
     image: node
     volumes:
       - name: webpage
