@@ -3,13 +3,15 @@ type: docker
 name: webpage
 
 steps:
-
   - name: build
     when:
       branch:
         - publish
       event:
-        - pull_request
+        include:
+          - pull_request
+        exclude:
+          - push
     image: node
     volumes:
       - name: webpage
