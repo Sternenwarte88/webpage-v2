@@ -39,7 +39,7 @@ export default function EndSection () {
         </FlexboxGridItem>
         <div className={classes.iconContainer}>
           <SelfMadeButton
-            socialLink="https://github.com/Wusabinga"
+            socialLink="https://github.com/sternenwarte88"
             icon="github-alt"
             size="5x"
           />
