@@ -7,7 +7,7 @@ export default function Quote () {
 
   useEffect(() => {
     axios
-      .get('http://quotes.stormconsultancy.co.uk/random.json')
+      .get('https://quotes.stormconsultancy.co.uk/random.json')
       .then((data) => {
         setQuote({ quote: data.data.quote, author: data.data.author });
       });

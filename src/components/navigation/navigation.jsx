@@ -12,7 +12,7 @@ export default function Navigation () {
         <SelfMadeButton
           icon="github-alt"
           size="5x"
-          socialLink="https://github.com/Wusabinga"
+          socialLink="https://github.com/sternenwarte88"
         />
         <SelfMadeButton
           icon="linkedin"
