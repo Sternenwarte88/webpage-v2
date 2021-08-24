@@ -53,7 +53,7 @@ export const skills = [
   {
     title: 'UX & Webdesign',
     percent: 3,
-    description: 'UI/UX beherrsche ich angefangen bei den Grundprinzipien, wie etwas aufgebaut sein sollte, Microinteraktionen und user freundliches Design, bis Nutzun von Componenten und Designsystemen in Figma. Ebenfalls ist mir das Skizzieren, Wireframing bis hin zum Prototyp alles geläufig.'
+    description: 'I master UI / UX starting with the basic principles of how something should be structured, micro-interactions and user-friendly design, to the use of components and design systems in Figma. I am also familiar with sketching, wireframing and even prototypes.'
   },
   {
     title: 'Unit Testing',
@@ -73,7 +73,7 @@ export const skills = [
   {
     title: 'Rest-API',
     percent: 3,
-    description: 'REST API, bereitstellung und CRUD operations sind bekannt und beherrsche diese auch.'
+    description: 'REST API, provisioning and CRUD operations are known and mastered.'
   }
 
 ];
