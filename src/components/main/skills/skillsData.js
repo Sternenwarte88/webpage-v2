@@ -36,6 +36,11 @@ export const skills = [
     description: 'In my opinion, MongoDB is the perfect database for Javascript. Not only is it scalable, so is the use of the database. Writing queries with Javascript, receiving and using data is super easy. Especially in connection with the JSON format. The basics are known, but more complex applications such as the Aggregation Pipeline would have to be practiced again because I am missing specific use cases.'
   },
   {
+    title: 'Electron.js',
+    percent: 1,
+    description: 'Just started with Electron, but it`s a nice way of easily writing desktop applications with technologies of web development. There are some special features wich I don`t know, but basicly it`s like writing a Web App.'
+  }
+  {
     title: 'Docker',
     percent: 1,
     description: 'For Docker and Kubernetes, I heard about it and also worked with it at short notice. But we cannot speak of experience at the moment, so that the use cases are missing. But with a little documentation and patience, I´ll be able to master that.'
