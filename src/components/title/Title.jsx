@@ -2,7 +2,7 @@ import React from 'react';
 // import Quote from '../Quote/quote'; //! missing dependency on other API
 import classes from './title.module.css';
 import { motion } from 'framer-motion';
-export default function Title () {
+export default function Title() {
   const opacityAnimation = {
     visible: {
       opacity: 1,
@@ -59,7 +59,16 @@ export default function Title () {
         opacityAnimation={opacityAnimation}
         variants={opacityAnimation}
       />
-      {/* <motion.div whileHover={scale} opacityAnimation={opacityAnimation} variants={opacityAnimation} className={classes.quote} ><Quote/> </motion.div> */}
+      {
+        <motion.div
+          whileHover={scale}
+          opacityAnimation={opacityAnimation}
+          variants={opacityAnimation}
+          className={classes.quote}
+        >
+          <Quote />{' '}
+        </motion.div>
+      }
     </motion.div>
   );
 }
