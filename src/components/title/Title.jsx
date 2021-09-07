@@ -2,7 +2,8 @@ import React from 'react';
 // import Quote from '../Quote/quote'; //! missing dependency on other API
 import classes from './title.module.css';
 import { motion } from 'framer-motion';
-export default function Title() {
+import Quote from '../Quote/quote';
+export default function Title () {
   const opacityAnimation = {
     visible: {
       opacity: 1,
