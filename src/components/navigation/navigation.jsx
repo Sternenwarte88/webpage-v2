@@ -19,6 +19,11 @@ export default function Navigation () {
           size="5x"
           socialLink="https://www.linkedin.com/in/stephan-l%C3%B6cher-2ab7871b2/"
         />
+        <SelfMadeButton
+          icon="xing"
+          size="5x"
+          socialLink={'https://www.xing.com/profile/Stephan_Loecher/cv'}
+        />
       </motion.div>
     </>
   );
